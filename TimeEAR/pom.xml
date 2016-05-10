@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
 
-    <groupId>aiidko</groupId>
+    <groupId>clu</groupId>
     <artifactId>TimeEAR</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>ear</packaging>
@@ -17,7 +17,7 @@
   <dependencies>
 		<dependency> 
             <groupId>clu</groupId>
-            <artifactId>web</artifactId>
+            <artifactId>time</artifactId>
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
@@ -48,6 +48,11 @@
                     <version>6</version>
                     <defaultLibBundleDir>lib</defaultLibBundleDir>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.wildfly.plugins</groupId>
+                <artifactId>wildfly-maven-plugin</artifactId>
+                <version>1.1.0.Alpha8</version>                
             </plugin>
         </plugins>
     </build>

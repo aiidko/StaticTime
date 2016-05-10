@@ -3,8 +3,8 @@
   <display-name>TimeEAR</display-name>
   <module>
     <web>
-      <web-uri>web-1.0-SNAPSHOT.war</web-uri>
-      <context-root>/web</context-root>
+      <web-uri>time-1.0-SNAPSHOT.war</web-uri>
+      <context-root>/time</context-root>
     </web>
   </module>
   <module>
