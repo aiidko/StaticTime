@@ -9,7 +9,7 @@
   <name>StaticTime</name>
   <modules>
     <module>TimeEAR</module>
-    <module>TimeWEB</module>
+    <module>TimeWeb</module>
     <module>TimeEJB</module>
   </modules>
 
